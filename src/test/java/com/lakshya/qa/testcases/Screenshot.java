@@ -26,4 +26,6 @@ public class Screenshot extends TestBase {
 		}		
 	
 }
+
+
 //File ScreenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

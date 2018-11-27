@@ -12,6 +12,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="Scripts"/>
+	<classpathentry kind="src" path="Java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -39,5 +41,9 @@
 	<classpathentry kind="lib" path="D:/PROJECT/LIB/okio-1.14.1.jar"/>
 	<classpathentry kind="lib" path="D:/PROJECT/LIB/selenium-server-standalone-3.14.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/PROJECT/LIB/eclipse-jee-neon-3-win32-x86_64.zip"/>
+	<classpathentry kind="lib" path="D:/PROJECT/LIB/jenkins-2.138.2.zip"/>
+	<classpathentry kind="lib" path="D:/PROJECT/LIB/log4j-1.2.17.zip"/>
+	<classpathentry kind="lib" path="D:/PROJECT/LIB/testng-6.7.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

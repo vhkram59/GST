@@ -2,17 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="com.lakshya.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="Testng.Listener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Testng.xmml(failed)">
     <classes>
-      <class name="com.lakshya.qa.testcases.HelloTest">
+      <class name="Testng.Logintest">
         <methods>
-          <include name="Setup"/>
-          <include name="teardown"/>
-          <include name="setup"/>
+          <include name="loginwithfacebook"/>
         </methods>
-      </class> <!-- com.lakshya.qa.testcases.HelloTest -->
+      </class> <!-- Testng.Logintest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Testng.xmml(failed) -->
 </suite> <!-- Failed suite [Suite] -->
